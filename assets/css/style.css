@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/cloudscape-blue-sky-with-clouds-and-sun-paper-art-style-vector-id916944562?k=20&m=916944562&s=612x612&w=0&h=7aUFQSoVHWGpv6AqKhGXLna9IVCVQ99qcUML3xwJ7Ro=);
+}
+.titleContainer {
+    border: solid;
+    background-color: lightblue;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Prata', serif;
+}
