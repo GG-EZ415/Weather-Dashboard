@@ -8,16 +8,34 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Prata&display=swap" rel="stylesheet">
+        <script src="./assets/css/javascript/script.js" defer></script>
     </head>
     <body>
         <div class="titleContainer">
         <h1 id="title">Weather Dashboard</h1>
         </div>
+        <div class="searchContainer">
+            <div class="search">
+              <h2 class="citySearch">Search for a City</h2>
+                <input id="search-input" class="form-input" type="text" placeholder="Where we looking today?">
+                <button type="submit" class="btn" id="searchBtn">search</button>
+        </div>
+    </div>
 
-
-
-
-
-    </body>
+        <div class="weatherBox">
+            <div class="weather">
+                <h3 class="city">City Weather will be displayed here</h3>
+                <div class="temp">The temperature will be displayed here</div>
+                <div class="flex">
+                    <img src="https://openweathermap.org/img/wn/01n.png" alt="the icon of the weather type" class="icon" />
+                    <div class="description">The Current Weather discription and icon will be displayed here</div>
+                </div>
+                <div class="humidity">The Humidity percentage will be displayed here</div>
+                <div class="speed">The windspeed will display here</div>
+                <div class="visibility"></div>
+            </div>
+        </div>
+            </body>
 </html>
