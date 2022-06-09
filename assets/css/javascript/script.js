@@ -1,10 +1,11 @@
-let weather = {
-    "apiKey": "dfeb86f33435a4e2395cd13a740cbcb0",
-    function: fetchWeather(city) {
-        fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + this.apiKey)
+var url = "https://api.openweathermap.org/data/2.5/weather?q=";
+var apiKey = "dfeb86f33435a4e2395cd13a740cbcb0";
+
+function getAPi (){
+    fetchWeather(city) 
+        fetch(`${url}&appid=${apiKey}`)
         .then((response) => response.json())
         .then((data) => this.displayWeather(data));
-    }
 };
      function displayWeather (data){
         const name = data;
