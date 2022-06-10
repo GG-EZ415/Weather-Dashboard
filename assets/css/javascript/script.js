@@ -1,5 +1,5 @@
 // "https://api.openweathermap.org/data/2.5/weather?q=denver&appid=dfeb86f33435a4e2395cd13a740cbcb0"
-var searchBtn = document.getElementById('search-input');
+var searchBtn = document.getElementById('searchBtn');
 var requestUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 var apiKey = "dfeb86f33435a4e2395cd13a740cbcb0";
 var city = document.querySelector('#search-input');
@@ -20,7 +20,9 @@ var getAPi = function (city) {
   
 };
 searchBtn.addEventListener('click', getAPi);
-  
+
+
+//restarted because it was too close to a youtube video
 //         const { name } = data;
 //         const { icon } = data.weather[0];
 //         const { description } = data.weather[0];
