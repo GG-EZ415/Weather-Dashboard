@@ -15,8 +15,12 @@ body {
     margin-top: 8px;
 }
 
-.weatherBox {
+#weather-cont {
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
 }
 
 .flex {
@@ -33,15 +37,18 @@ body {
     border: double;
 }
 
-.btn {
+#searchBtn {
     background-color: white;
     border: solid;
 }
 
-.btn:hover {
+#searchBtn:hover {
     color: pink;
 }
 
-.citySearch {
-    margin-left: 10px;
+#cards {
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    
 }
